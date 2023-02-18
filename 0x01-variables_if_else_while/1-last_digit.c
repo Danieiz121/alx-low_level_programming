@@ -1,29 +1,35 @@
 #include <stdio.h>
+
 #include <stdlib.h>
+
 #include <time.h>
+
 /**
- * main - Entry
- * Return: Always 0
+ * main - Prints a text according number 
+ * Return: Always 0 (success)
+ *
  */
+
 int main(void)
+
 {
 	int n;
-	int a;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
+	Lastd = n % 10;
 
-	if (a > 5)
+	if (Lastd > 5)
 	{
-		printf("Last digit of %d is %d and is grater than 5\n", n, a);
+		printf("Last digit of %d is %d and is grater than 5\n", n,lastd);
 	}
-	else if (a == 0)
+	else if (Lastd == 0)
 	{
-		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, a);
+		printf("Last digit of %d is %d and 0\n", n,Lastd);
 	}
-	else
+	else if (lastd < 6 && Lastd != 0)
 	{
-		printf("Last digit of %d is %d and is 0\n", n, a);
+		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, Lastd);
 	}
 
 	return (0);
