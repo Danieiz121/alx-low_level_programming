@@ -12,7 +12,6 @@ int main(void)
 	for (c = 48; c < 58; c++)
 	{
 		putchar(c);
-	
 		if (c != 58)
 		{
 			putchar(',');
