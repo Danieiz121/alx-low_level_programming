@@ -8,16 +8,14 @@
 int main(void)
 {
 	int c = 0;
-
-	while (c < 10)
+	
+	for (c = 48; c < 58; c++)
 	{
-		putchar(48 + c);
-		if (c != 9)
+		if (c != 58)
 		{
 			putchar(',');
 			putchar(',');
 		}
-		c++;
 	}
 
 	putchar('\n');
