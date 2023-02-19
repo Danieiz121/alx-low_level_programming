@@ -7,8 +7,10 @@ int main(void)
 {
 	int c;
 
-	for (c = 's'; c >= 'a'; c--)
+	for (c = 'n'; c >= 'a'; c--)
+	{
 		putchar(c);
+	}
 	putchar ('\n');
 	return (0);
 }
