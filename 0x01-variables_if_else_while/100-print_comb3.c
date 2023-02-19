@@ -7,21 +7,21 @@
  */
 int main(void)
 {
-	int ones = '0';
-	int tens = '0';
+	int a;
+	int b;
 
-	for (tens = '0'; tens <= '9'; tens++)
+	for (b = '0'; b <= '9'; b++)
 	{
-		for (ones = '0'; ones <= '9'; ones++)
+		for (a = '0'; a <= '9'; a++)
 		{
-			if (!((ones == tens) || (tens > ones)))
+			if (!((a == b) || (b > a)))
 			{
 				putchar(tens);
 				putchar(ones);
-				if (!(ones == '9' && tens == '8'))
+				if (!(a == '9' && b == '8'))
 				{
 					putchar(',');
-					putchar(',');
+					putchar(' ');
 				}
 			}
 		}
