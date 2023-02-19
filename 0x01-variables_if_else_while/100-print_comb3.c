@@ -16,8 +16,8 @@ int main(void)
 		{
 			if (!((a == b) || (b > a)))
 			{
-				putchar(tens);
-				putchar(ones);
+				putchar(b);
+				putchar(a);
 				if (!(a == '9' && b == '8'))
 				{
 					putchar(',');
