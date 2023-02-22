@@ -4,7 +4,7 @@
  * Return: void
  * void print_alphabet_x10(void)
  */
-void main(void)
+int main(void)
 {	
 	char c;
 	int i = 0;
