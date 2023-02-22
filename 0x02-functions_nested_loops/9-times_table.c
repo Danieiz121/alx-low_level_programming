@@ -15,15 +15,12 @@ void times_table(void)
 			if (z > 9)
 			{
 				q = z % 10;
-				n = (z > 9);
-				{
-					q = z % 10;
-					n = (z - q) / 10;
-					_putchar(44);
-					_putchar(32);
-					-putchar(n + '0');
-					_putchar(q + '0');
-				}
+				n = (z - q) / 10;
+				_putchar(44);
+				_putchar(32);
+				_putchar(n + '0');
+				_putchar(q + '0');
+			}
 				else
 				{
 					if (y != 0)
@@ -32,9 +29,9 @@ void times_table(void)
 						_putchar(32);
 						_putchar(32);
 					}
+					_putchar(z + '0');
 				}
-				_putchar('\n');
-			}
 		}
+		_putchar('\n');
 	}
 }
