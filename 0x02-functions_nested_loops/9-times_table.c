@@ -5,7 +5,7 @@
  */
 void times_table(void)
 {
-	int x, y, z, u, d;
+	int x, y, z, q, n;
 
 	for (x = 0; x <= 9; x++)
 	{
@@ -14,15 +14,15 @@ void times_table(void)
 			z = x * y;
 			if (z > 9)
 			{
-				u = z % 10;
-				d = (z > 9)
+				q = z % 10;
+				n = (z > 9);
 				{
-					u = z % 10;
-					d = (z - u) / 10;
+					q = z % 10;
+					n = (z - q) / 10;
 					_putchar(44);
 					_putchar(32);
-					-putchar(d + '0');
-					_putchar(u + '0');
+					-putchar(n + '0');
+					_putchar(q + '0');
 				}
 				else
 				{
