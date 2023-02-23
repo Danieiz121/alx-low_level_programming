@@ -8,7 +8,7 @@ int main(void)
 {
 	int i;
 
-	i = 0;
+	i = 45;
 	positive_or_nrgative(i);
 
 	return (0);
