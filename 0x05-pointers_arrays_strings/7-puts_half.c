@@ -6,7 +6,7 @@
  * Return: void
  */
 
-goid puts_half(char *str)
+Void puts_half(char *str)
 {
 	int j = 0;
 	int k;
