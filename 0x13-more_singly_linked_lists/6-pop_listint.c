@@ -1,10 +1,10 @@
 #include <stdlib.h>
 #include "lists.h"
 /**
- *  * pop_listint - deleted head node
- *   * @head: head node
- *    * Return: head node data
- *     */
+ * pop_listint - deleted head node
+ * @head: head node
+ * Return: head node data
+ */
 int pop_listint(listint_t **head)
 {
 	listint_t *second;
