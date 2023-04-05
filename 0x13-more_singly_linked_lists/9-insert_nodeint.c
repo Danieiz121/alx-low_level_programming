@@ -1,12 +1,12 @@
 #include <stdlib.h>
 #include "lists.h"
 /**
- *  * insert_nodeint_at_index - insert node at given pos
- *   * @head: head node
- *    * @idx: index pos
- *     * @n: new node data
- *      * Return: address of new node
- *       */
+ * insert_nodeint_at_index - insert node at given pos
+ * @head: head node
+ * @idx: index pos
+ * @n: new node data
+ * Return: address of new node
+ */
 listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 {
 	listint_t *node, *prev;
@@ -37,10 +37,10 @@ listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 	return (node);
 }
 /**
- *  * get_nodeint_at_index - get node at index
- *   * @head: head node
- *    * @index: index node
- *     * Return: address of index node
+ * get_nodeint_at_index - get node at index
+ * @head: head node
+ * @index: index node
+ * Return: address of index node
  */
 listint_t *get_nodeint_at_index(listint_t *head, unsigned int index)
 {
@@ -62,11 +62,11 @@ listint_t *get_nodeint_at_index(listint_t *head, unsigned int index)
 	return (0);
 }
 /**
- *  * add_nodeint - add not at start
- *   * Return: pointer to node
- *    * @head: head node
- *     * @n: new node data
- *      */
+ * add_nodeint - add not at start
+ * Return: pointer to node
+ * @head: head node
+ * @n: new node data
+ */
 listint_t *add_nodeint(listint_t **head, const int n)
 {
 	listint_t *node;
